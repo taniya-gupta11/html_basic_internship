@@ -1,0 +1,130 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+nav {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+
+nav a:hover {
+  color: #084298;
+  text-decoration: underline;
+}
+
+
+main {
+  padding: 20px;
+}
+
+
+section {
+  margin-bottom: 30px;
+}
+
+
+#gallery img {
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #0d6efd;
+}
+
+
+button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #084298;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e9ecef;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  #gallery img {
+    width: 100px;
+  }
+}
